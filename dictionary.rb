@@ -22,7 +22,11 @@ class Dictionary
     end
 
     def each
-        @words.each{ |word| yield word }
+        # yield 
+    end
+
+    def include?(word)
+        return @words.include?(word)
     end
 
 end
